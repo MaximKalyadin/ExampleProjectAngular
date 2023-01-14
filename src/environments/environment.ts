@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  newsUrl: 'https://webapi.autodoc.ru/api/news',
+  newsCardUrl: 'https://webapi.autodoc.ru/api/news/item/avto-novosti'
 };
 
 /*
